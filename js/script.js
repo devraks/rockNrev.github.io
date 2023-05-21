@@ -13,7 +13,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbwF24iC34GgscTaqWsjWH
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => {
-        msg.innerHTML.style.color=#37b182
+        msg.innerHTML.style.color=green
         msg.innerHTML = "Submitted Successfully."
         setTimeout(function(){
             msg.innerHTML=""
