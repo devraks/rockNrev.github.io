@@ -652,6 +652,10 @@ h3.my-profession
     height: 50px;
     padding: 0 50px;
 }
+#msg{
+    color: var(--skin-color);
+    text-decoration: none;
+}
 /* footer section styling */
 footer {
 
