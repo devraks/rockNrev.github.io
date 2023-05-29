@@ -326,7 +326,7 @@ h3.my-profession
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 3px;
+    right: -3px;
     bottom: -30px;
 }
 .home .home-img img
