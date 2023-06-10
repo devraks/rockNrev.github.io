@@ -13,7 +13,7 @@ form.addEventListener('submit', e => {
   e.preventDefault()
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
-      msg.innerHTML.style.color= document.getElementsByClassName("btn").style.color
+      msg.innerHTML.style.color= document.getElementsByClassName("fa-home").style.color
       msg.innerHTML = "Submitted Successfully."
       setTimeout(function(){
           msg.innerHTML=""
