@@ -5,7 +5,7 @@ var typed=new Typed(".typing",{
   loop:true
 })
 
-const scriptURL = 'https://docs.google.com/spreadsheets/d/1FMyzInHMoW9E6p8-TAijDLUfoTg7G7IECCydoPTFQXk/edit#gid=0'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzCU4ER8ubcmjYooMuxjVG1uFx0gis5HYkWPIa1A1k1/dev'
 const form = document.forms['submit-to-google-sheet']
 const msg = document.getElementById("msg")
 
