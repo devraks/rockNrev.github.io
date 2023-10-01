@@ -698,7 +698,8 @@ footer span a:hover{
         flex: 0 0 50%;
         max-width: 50%;
     }
-    .home .home-info{
+    .home .home-info,
+    .style-switcher{
         flex: 0 0 100%;
         max-width: 100%;
     }
@@ -713,7 +714,8 @@ footer span a:hover{
     .about .about-content .experience,
     .about .about-content .education,
     .about .about-content .skills,
-    .about .about-content .person-info{
+    .about .about-content .person-info,
+    .style-switcher{
         flex: 0 0 100%;
         max-width: 100%;
     }
