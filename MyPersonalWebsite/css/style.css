@@ -669,11 +669,9 @@ h3.my-profession
 
 /* footer section styling */
 footer {
-
     padding: 15px 0;
-    padding-right: 330px;
     color: #111;
-    text-align: right;
+    text-align: center;
 }
 footer span a{
     color: var(--skin-color);
@@ -702,8 +700,7 @@ footer span a:hover{
         max-width: 50%;
     }
     .home .home-info,
-    .style-switcher,
-    footer span{
+    .style-switcher{
         flex: 0 0 100%;
         max-width: 100%;
     }
@@ -718,8 +715,7 @@ footer span a:hover{
     .about .about-content .education,
     .about .about-content .skills,
     .about .about-content .person-info,
-    .style-switcher,
-    footer span{
+    .style-switcher{
         flex: 0 0 100%;
         max-width: 100%;
     }
