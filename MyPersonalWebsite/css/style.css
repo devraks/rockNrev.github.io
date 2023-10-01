@@ -699,7 +699,8 @@ footer span a:hover{
         max-width: 50%;
     }
     .home .home-info,
-    .style-switcher{
+    .style-switcher,
+    footer span{
         flex: 0 0 100%;
         max-width: 100%;
     }
@@ -709,13 +710,17 @@ footer span a:hover{
 }
 @media (max-width: 767px){
     .contact .contact-form .col-6,
-    .contact .contact-info-item,
     .portfolio .portfolio-item,
     .about .about-content .experience,
     .about .about-content .education,
     .about .about-content .skills,
     .about .about-content .person-info,
-    .style-switcher{
+    .style-switcher,
+    footer span{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .contact .contact-info-item{
         flex: 0 0 100%;
         max-width: 100%;
     }
