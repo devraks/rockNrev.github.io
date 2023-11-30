@@ -324,7 +324,7 @@ h3.my-profession
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
     left: -7px;
-    top: -40px;
+    top: -30px;
 }
 .home-img::after
 {
@@ -335,7 +335,7 @@ h3.my-profession
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
     right: -7px;
-    bottom: -30px;
+    bottom: 0;
 }
 .home .home-img img
 {
